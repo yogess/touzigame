@@ -53,7 +53,9 @@ def touzi_game():
             result="big"
         else:
             result="small"
+            
         print("总点数是",sum_point,result)
+        
         if yours=="small":
             if result=="big":
                 print("you lose")
