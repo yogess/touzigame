@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 2017-10-19 18:25:23
-使用random库，制作掷骰子猜大小游戏。
+使用random库,制作掷骰子猜大小游戏。
 @author: liqian
 """
 import random as rd
@@ -21,7 +21,7 @@ def xiazhu():
         
 def touzi_game():
     #print("》》》》游戏开始《《《《")
-    num_dice=int(input("请输入想使用筛子的数量,最多为6个"))
+    num_dice=int(input("请输入想使用筛子的数量,(最多为6个) : "))
     if num_dice <=0:
         print("筛子数量不能为0")
         touzi_game()
